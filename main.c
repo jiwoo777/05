@@ -10,9 +10,9 @@ int main(int argc, char *argv[]) {
 	
 	scanf("%i", &number);
 	
-	if(number>=0)
+	if(number>0)
 	 printf("%i", number);
-	else
+	else if(number<0)
 	 printf("%i", number*(-1));
 	
 	  
