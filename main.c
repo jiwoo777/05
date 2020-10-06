@@ -10,12 +10,11 @@ int main(int argc, char *argv[]) {
 	
 	scanf("%i", &number);
 	
-	if(number>0)
-	 printf("양수입니다.\n");
-	else if(number<0) 
-	 printf("음수입니다.\n");
+	if(number>=0)
+	 printf("%i", number);
 	else
-	 printf("0 입니다.\n");
+	 printf("%i", number*(-1));
+	
 	  
 	return 0;
 }
