@@ -10,10 +10,10 @@ int main(int argc, char *argv[]) {
 	
 	scanf("%i", &number);
 	
-	if(number>=0)
-	 printf("%i", number);
-	else if(number<0)
-	 printf("%i", number*(-1));
+	if(number<0)
+	 number=number*(-1);
+	 
+	printf("절대값은 %i 입니다.\n", number);
 	
 	  
 	return 0;
